@@ -1,8 +1,8 @@
 ## Ryo
 
-Ryo is a Discord bot that provides rather simple commands for the server. It is written in Javascript and uses the [Discord.js](https://discord.js.org) library.
+Ryo is a Discord bot that provides rather simple commands for your server. It is written in Javascript and uses the [Discord.js](https://discord.js.org) library.
 
-> This is still a work in progress, and it's a rewrite of [natsukii](https://github.com/eligibilityy/natsukii), just in JS.
+> This is still a work in progress, and it's a rewrite of [natsukii](https://github.com/amemiya-nazuna/natsukii), just in JS.
 
 ### Commands
 
