@@ -7,6 +7,7 @@ Ryo is a Discord bot that provides rather simple commands for your server. It is
 ### Commands
 
 - `/ping`
+- `/poem`
 
 ### TODO
 
