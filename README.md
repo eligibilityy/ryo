@@ -19,11 +19,12 @@ None rn LOL
 
 1. Clone the repo: `git clone https://github.com/eligibilityy/ryo.git`
 2. Rename `.env.example` to `.env` and fill in the values:
-   ```python
-    TOKEN=
-    CILENT_ID=
-    GUILD_ID=
-    ```
+
+```python
+TOKEN=
+CILENT_ID=
+GUILD_ID=
+```
+
 3. `npm i`
 4. Check if it works: `npm run test`
-
