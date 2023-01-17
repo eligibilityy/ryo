@@ -10,8 +10,20 @@ None rn LOL
 
 ### TODO
 
-- [ ] Add commands
+- [ ] Add a command
 - [ ] Better handlers
 - [ ] Make a website since I'm bored and I think that's what I'm better at
 - [ ] Host 24/7
+
+### Setup
+
+1. Clone the repo: `git clone https://github.com/eligibilityy/ryo.git`
+2. Rename `.env.example` to `.env` and fill in the values:
+   ```python
+    TOKEN=
+    CILENT_ID=
+    GUILD_ID=
+    ```
+3. `npm i`
+4. Check if it works: `npm run test`
 
