@@ -10,8 +10,8 @@ None rn LOL
 
 ### TODO
 
-- [ ] Add a command
-- [ ] Better handlers
+- [x] Add a command
+- [x] Better handlers
 - [ ] Make a website since I'm bored and I think that's what I'm better at
 - [ ] Host 24/7
 
