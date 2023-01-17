@@ -31,7 +31,7 @@ module.exports = (client) => {
         commandArray.push(command.data.toJSON());
 
         console.log(
-          `[COMMAND] ${chalk.green("✓")} ${chalk.white(command.data.name)}`
+          `[COMMAND] ${chalk.green("✓")} ${chalk.white(command.data.name.charAt(0).toUpperCase() + command.data.name.slice(1))}`
         );
       }
     }
