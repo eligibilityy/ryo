@@ -10,7 +10,7 @@ const {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("poem")
-    .setDescription("Get the poem of the day from poemhunter.com"),
+    .setDescription("Gets a random poem"),
   async execute(interaction, client) {
     // make a var that takes a random number between 1 and 30 (might increase soon)
     const randomInt = Math.floor(Math.random() * 30) + 1;
@@ -30,7 +30,7 @@ module.exports = {
         name: `Requested by ${interaction.user.username}#${interaction.user.discriminator}`,
         iconURL: interaction.user.avatarURL(),
       })
-      .setTitle(`Random Poem`)
+      .setTitle(`📝 Random Poem`)
       .setDescription(`> ***${author} - ${title}*** \n\n*${lines}*`)
       .setColor("Random")
       .setTimestamp()

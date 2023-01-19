@@ -17,12 +17,12 @@ module.exports = {
       .addFields(
         {
           name: "Client",
-          value: `\`${clientPing}ms\` ${clientPingEmoji}`,
+          value: `\`${clientPing}ms ${clientPingEmoji}\``,
           inline: true,
         },
         {
           name: "API Latency",
-          value: `\`${ApiLatency}ms\` ${ApiLatencyEmoji}`,
+          value: `\`${ApiLatency}ms ${ApiLatencyEmoji}\``,
           inline: true,
         }
       )
